@@ -31,3 +31,4 @@ Easy has 8 images(4 pairs), medium has 18 images(9 pairs) and hard has 24 images
 
 * Use the git clone command along with the copied URL from earlier.
 $ git clone(https://github.com/rahul-53/ImageGame.git)
+* Press Enter.
