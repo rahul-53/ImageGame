@@ -9,6 +9,8 @@ class ImageGame(private val boardSize: BoardSize) {
 
     val cards: List<MemoryCard>
     var numberOfPairsFound:Int = 0
+    var numCardFlips:Int =0
+
     private var indexOfSingleSelectedCard:Int? =null
     init {
         val chooseImages = Constants.DEFAULT_ICONS.shuffled().take(boardSize.getNumPairs())
@@ -18,6 +20,7 @@ class ImageGame(private val boardSize: BoardSize) {
     }
 
     fun flipCard(position: Int):Boolean {
+         numCardFlips++
         val card:MemoryCard = cards[position]
         var matchFound = false
         if(indexOfSingleSelectedCard == null){
@@ -56,6 +59,10 @@ class ImageGame(private val boardSize: BoardSize) {
 
     fun isCardFacedUp(position: Int): Boolean {
         return cards[position].isFaceUp
+    }
+
+    fun getNumberOfMoves(): Int {
+        return numCardFlips / 2
     }
 
 }

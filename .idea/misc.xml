@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ImageGame/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.1" />
         <entry key="..\:/ImageGame/app/src/main/res/drawable/ic_baseline_wb_incandescent_24.xml" value="0.1" />
         <entry key="..\:/ImageGame/app/src/main/res/layout/activity_main.xml" value="0.10182370820668693" />
+        <entry key="..\:/ImageGame/app/src/main/res/layout/dailogue_board_size.xml" value="0.1" />
         <entry key="..\:/ImageGame/app/src/main/res/layout/item_layout.xml" value="0.1" />
+        <entry key="..\:/ImageGame/app/src/main/res/menu/menu_item.xml" value="0.19722222222222222" />
       </map>
     </option>
   </component>

@@ -30,7 +30,7 @@
         app:layout_constraintLeft_toLeftOf="parent">
 
         <TextView
-            android:id="@+id/tvNumPairs"
+            android:id="@+id/tvNumMoves"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -51,11 +51,12 @@
         app:layout_constraintStart_toEndOf="@+id/cardMoves">
 
         <TextView
+            android:id="@+id/tvNumPairs"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:padding="8dp"
-            android:text="Pairs:"
+            android:text="Pairs:0/4"
             android:textSize="22sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
