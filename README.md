@@ -3,7 +3,7 @@ This game is an Image Flip game, in which we can flip Images by taping them. The
 Easy has 8 images(4 pairs), medium has 18 images(9 pairs) and hard has 24 images(12 pairs).
 
 ## App template
-![Image Flip Game](https://user-images.githubusercontent.com/86509973/152642098-7daa2090-3ce8-41c3-b45d-30228ccc1f4d.jpeg)
+<img src = "https://user-images.githubusercontent.com/86509973/152642098-7daa2090-3ce8-41c3-b45d-30228ccc1f4d.jpeg" height  ="400" width = "300" />
 <img src = "https://user-images.githubusercontent.com/86509973/152642189-a39228f8-10a0-4684-9c83-06222d598da3.jpeg" height  ="400" width = "300" />
 
 ## Things we used while making this application
